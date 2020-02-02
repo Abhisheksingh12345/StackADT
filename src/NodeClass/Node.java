@@ -20,4 +20,8 @@ public class Node<E> {
     public Node<E> getNext() {
         return next;
     }
+
+    public void setNext(Node<E> next) {
+        this.next = next;
+    }
 }

@@ -1,4 +1,8 @@
 package STACKADT;
 
-public interface StackInterface {
+public interface StackInterface<E> {
+    /**
+     *
+     */
+    void push(E data);
 }

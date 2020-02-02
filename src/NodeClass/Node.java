@@ -7,6 +7,10 @@ public class Node<E> {
         this.data=data;
     }
     public Node(E data,Node<E> next){
+        this.data=data;
+        this.next=next;
+    }
+    public E getData(){
 
     }
 }
